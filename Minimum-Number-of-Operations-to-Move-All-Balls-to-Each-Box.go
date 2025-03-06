@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -23,9 +22,9 @@ func minOperations(boxes string) []int {
 	return output
 }
 
-func main() {
-	fmt.Println(minOperations("001011"))
-}
+// func main() {
+// 	fmt.Println(minOperations("001011"))
+// }
 
 // 1769. Minimum Number of Operations to Move All Balls to Each Box
 // Difficulty: Medium
